@@ -1,6 +1,13 @@
-import food_search as fs
+from food_search import food_search
 
-search_food = fs()
+def main():
+    api_key = 'AIzaSyA6PlZk4J8p6s8Nfm_p1nX58Lk6gOyMYX0'
+    food_places = {}
 
-search_food
+    food = food_search(api_key, food_places)
+
+    food.search()
+    
+if __name__ == "__main__":
+    main()
 
