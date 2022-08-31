@@ -6,7 +6,7 @@ import urllib.parse
 
 
 class food_search:
-    def __init__(self, api_key, food_places):
+    def __init__(self, api_key, food_places) -> None:
         self.api_key = api_key
         self.food_places = food_places
     
